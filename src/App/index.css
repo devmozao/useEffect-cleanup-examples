@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+  background-color: darkgray;
+}
+
+main {
+  margin: 5%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content {
+  border: 1px solid gray;
+  background-color: white;
+  margin: 12px;
+  padding: 12px;
+}
+
+.centralizer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.centralizer,
+.centralizer *,
+.centralizer * * {
+  background-color: white;
+}
+
+.title {
+  padding: 5px;
+}
+
+.button {
+  background-color: gray;
+  color: black;
+  padding: 12px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.applyMargin {
+  margin: 10px;
+  padding: 10px;
+}
+
+.fetch {
+  color: darkolivegreen;
+}
+
+.fetchBorder {
+  border: 2px solid darkolivegreen;
+}
+
+.axios {
+  color: orangered;
+}
+
+.axiosBorder {
+  border: 2px solid orangered;
+}
+
+.reactQuery {
+  color: blueviolet;
+}
+
+.reactQueryBorder {
+  border: 2px solid blueviolet;
+}
+
+.error {
+  color: red;
+}
